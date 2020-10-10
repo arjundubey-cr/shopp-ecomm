@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+main {
+  min-height: 80vh;
+}
+.navbar {
+  background-color: white !important;
+  border-bottom: 1px gray solid;
+}
+.navbar-brand {
+  display: flex !important;
+  align-items: center;
+  font-weight: 1000 !important;
+  font-size: 2em !important;
+  color: inherit !important;
+  line-height: 1.2;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.25em !important;
+  }
+}
+.navbar-toggler {
+  display: flex;
+  align-items: center;
+  border: none !important;
+  outline-width: 0 !important;
+}
+.fa-bars {
+  color: black;
+  outline-width: none;
+}
