@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../logo/lu_logo_nobg.png'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 
@@ -11,12 +10,6 @@ const Header = () => {
           {/* Branding */}
           <LinkContainer to='/'>
             <Navbar.Brand>
-              <img
-                alt='lu_logo'
-                src={logo}
-                height='60'
-                className='d-inline-block align-top'
-              />
               <div>Shopping Point</div>
             </Navbar.Brand>
           </LinkContainer>
